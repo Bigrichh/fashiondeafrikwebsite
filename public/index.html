@@ -1,17 +1,73 @@
 <!DOCTYPE html>
 <html lang="">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title><%= htmlWebpackPlugin.options.title %></title>
-  </head>
-  <body>
-    <noscript>
-      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+
+  <title>Fashion De Afrik</title>
+
+  <style>
+    body {
+      background-color: #b99c00;
+    }
+
+    body::-webkit-scrollbar {
+      width: 8px;
+    }
+
+    body::-webkit-scrollbar-thumb {
+      background-color: black;
+      border-radius: 8px;
+    }
+
+    body::-webkit-scrollbar-thumb:hover {
+      background-color: #e6e6e6;
+    }
+
+    /* Add this to your CSS */
+    .swiper-pagination-bullet-active {
+      background-color: yellow !important;
+    }
+
+    /* Styling SwiperJS navigation arrows */
+    .swiper-button-next,
+    .swiper-button-prev {
+      color: #ffcc00 !important;
+      /* Change arrow color */
+    }
+
+    /* Optional: Customize the hover effect */
+    .swiper-button-next:hover,
+    .swiper-button-prev:hover {
+      color: #fff !important;
+      /* Change hover color */
+    }
+
+    :root {
+      --swiper-navigation-size: 32px !important;
+      /* Adjust the size as needed */
+      /* --swiper-navigation-color: #333; Adjust the color as needed */
+      /* --swiper-navigation-color-hover: #ffcc00; Adjust the hover color as needed */
+    }
+  </style>
+</head>
+
+<body>
+  <div id="app"></div>
+  <!-- built files will be auto injected -->
+</body>
+
 </html>
