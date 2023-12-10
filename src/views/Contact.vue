@@ -166,7 +166,6 @@ export default {
           "zuQERd3O06jUaUjRS"
         )
         .then((response) => {
-          s;
           alert("Form has submitted sucessfully.");
           this.firstName = "";
           this.lastName = "";

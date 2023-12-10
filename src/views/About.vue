@@ -102,6 +102,16 @@
     </div>
   </section>
 
+  <!-- /**
+*!VIDEO SECTION
+*/ -->
+  <section id="videosection">
+    <video controls>
+      <source src="@/assets/aboutpagevideo.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+  </section>
+
   <!-- /** 
     *!THE THIRD SECTION OF THE ABOUT PAGE */ 
   -->
@@ -602,6 +612,23 @@ li {
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
+
+
+/**
+*!VIDEO SECTION STYLING
+*/
+
+#videosection {
+  background-color: #000;
+  width: 100vw;
+  height: 100vh;
+}
+
+video {
+  width: 100%;
+  height: 100%;
+}
+
 
 /**
 *!SECTION3 STYLING
