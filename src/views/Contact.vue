@@ -1,5 +1,5 @@
 <template>
-  <Div class="container">
+  <div class="container">
     <div class="navbar">
       <NavBar
         v-if="!mobileView"
@@ -131,7 +131,7 @@
         </h2>
       </div>
     </div>
-  </Div>
+  </div>
 </template>
 
 <script>
